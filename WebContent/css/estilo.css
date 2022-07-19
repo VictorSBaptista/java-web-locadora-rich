@@ -1,0 +1,31 @@
+@charset "ISO-8859-1";
+
+html {
+	background: url('../img/filmeloginback2.jpg');
+	background-size: cover;
+  	background-repeat: no-repeat;
+}
+
+.div1 {
+  	text-align: center;
+	margin-top: 447px;
+	margin-right: 645px;
+	margin-left: 385px;
+	font-size: 10px;
+	animation-name: loginani;
+	animation-duration: 3s;
+	animation-timing-function: ease;
+	padding: 10px;
+	border: 10px;
+	border-style: solid;
+	border-color: rgb(180, 73, 49);
+}	
+
+@keyframes loginani {
+	0%{}
+	50%{}
+	100%{}
+}
+#lin {
+	font-size: 20px;
+}
